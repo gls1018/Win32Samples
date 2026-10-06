@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\windows kits\\10\\include\\10.0.26100.0\\shared\\bcrypt.h",
+        "ProvidedModule": "",
+        "Includes": [
+            "d:\\windows kits\\10\\include\\10.0.26100.0\\shared\\winapifamily.h",
+            "d:\\windows kits\\10\\include\\10.0.26100.0\\shared\\winpackagefamily.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

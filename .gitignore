@@ -30,3 +30,14 @@
 *.exe
 *.out
 *.app
+
+
+# Debug files
+*.ipch
+*.vs
+*.idb
+*.pdb
+*.tlog
+*.log
+*.iobj
+
