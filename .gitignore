@@ -40,4 +40,6 @@
 *.tlog
 *.log
 *.iobj
+x64
+
 
