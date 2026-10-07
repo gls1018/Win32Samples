@@ -7,6 +7,8 @@
 #pragma comment (lib, "bcrypt.lib")
 
 
+
+
 int main()
 {
 	// 1. 打开 SHA-256 算法提供程序
@@ -37,7 +39,6 @@ int main()
 	}
 
 	// 3. 分配 Hash Object 
-
 	BCRYPT_HASH_HANDLE hHash;
 	std::vector<BYTE> hashObject(dwObjSize);
 	status = BCryptCreateHash(
@@ -88,7 +89,7 @@ int main()
 	// 6. 输出
 	for (BYTE byte : hashValue)
 	{
-		std::print("{:02x}", byte);
+		std::print("{:02x}", byte);      //输出 2cf24dba5fb0a30e26e83b2ac5b9e29e1b161e5c1fa7425e73043362938b9824
 	}
 	std::cout << "\n";
 
