@@ -4,4 +4,5 @@
     <Platform Name="x86" />
   </Configurations>
   <Project Path="HashComputation/HashComputation.vcxproj" Id="86eeda02-e082-4761-b993-22a3026f4004" />
+  <Project Path="RandomNumberGeneration/RandomNumberGeneration.vcxproj" Id="2106e36d-58b3-4377-8d7c-65daff73ce47" />
 </Solution>

@@ -55,7 +55,7 @@ int main()
 											(UCHAR*)&value,
 											sizeof(value),
 											BCRYPT_USE_SYSTEM_PREFERRED_RNG);
-	}while(value >= (0xFFFF+1)/100 *100)
+	}while(value >= (0xFFFF+1)/100 * 100)  //0xFFFF 是16bit的最大值.
 	if (!BCRYPT_SUCCESS(status))
 		throw std::runtime_error("BCryptGenRandom Failed");
 

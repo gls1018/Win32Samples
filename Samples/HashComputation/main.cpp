@@ -7,8 +7,6 @@
 #pragma comment (lib, "bcrypt.lib")
 
 
-
-
 int main()
 {
 	// 1. 打开 SHA-256 算法提供程序

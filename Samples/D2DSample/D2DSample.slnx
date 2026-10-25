@@ -1,0 +1,10 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="001Startup/001Startup.vcxproj" Id="a44e1b1b-59c2-4cce-a9c0-685862bc970b" />
+  <Project Path="002SolidBrush/002SolidBrush.vcxproj" Id="e0bd363f-0653-4c0a-a590-b19704c10491" />
+  <Project Path="D2DWindow/D2DWindow.vcxproj" Id="28b86f0d-748b-4455-b542-34a9a48bb2b6" />
+  <Project Path="WICDemo/WICDemo.vcxproj" Id="6a948a19-69c9-4568-8d36-47a88063e545" />
+</Solution>
